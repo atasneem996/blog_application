@@ -1,7 +1,42 @@
-FEATURES
-1. User Authentication & Authorization: Users can sign up, log in, and receive a JWT token for secure API access. Role-based access control allows only authorized users (e.g., admins) to perform certain actions.
-2. Create, Read, Update, and Delete (CRUD) Operations for blog posts.
-3. Comment Management: Add comments on blog posts; delete comments (with permission).
-4. RESTful API design for smooth interaction between front-end and back-end.
-5. Error Handling for validation and unauthorized access.
-6. Validation using Mongoose to ensure data consistency.
+# Blog Application (Backend)
+A backend blog application built using Node.js, Express.js, and MongoDB. It includes user authentication, blog post creation, comment management, and role-based access control.
+
+## 🔧 Technologies Used
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JSON Web Token (JWT)
+- RESTful APIs
+
+## ✨ Features
+- User Registration & Login
+- JWT-based Authentication
+- Create, Read, Update, Delete (CRUD) for Blog Posts
+- Add & Manage Comments on Posts
+- Role-Based Access Control (RBAC)
+- Error handling and validation
+
+## 📁 Folder Structure
+blog_application/
+├── controllers/
+├── models/
+├── routes/
+├── middlewares/
+├── config/
+└── app.js
+
+
+## 🚀 Getting Started
+
+1. Clone the repository  
+2. Run `npm install`  
+3. Create `.env` with your MongoDB URI and JWT secret  
+4. Run `npm start`
+
+## 🔗 GitHub Repository
+
+https://github.com/atasneem996/blog_application
+
+
+
